@@ -1,0 +1,19 @@
+{
+  "model_load_s": 14.087377100004232,
+  "inference_s": 11.049896999989869,
+  "export_s": 13.650759500000277,
+  "total_s": 39.428531500001554,
+  "torch_peak_allocated_bytes": 7718301696,
+  "torch_peak_reserved_bytes": 8266973184,
+  "peak_sampled_process_rss_bytes": 9298391040,
+  "gpu_sample_count": 38,
+  "nvidia_smi_sampled_peak_memory_mib": 7780.0,
+  "sampled_peak_board_power_w": 33.24,
+  "new_service_api_cost_cny": 0,
+  "geometry_point_count": 297850,
+  "validity_mask_fraction": 0.8556547619047619,
+  "research_validation_scenes": 0,
+  "successful_engineering_scenes": 1,
+  "successful_model_inferences": 1,
+  "pre_model_adapter_failures": 1
+}

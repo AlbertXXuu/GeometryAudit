@@ -1,0 +1,120 @@
+{
+  "review_version": "GEO-REVIEW-TUM-P0-1",
+  "reviewed_utc": "2026-09-21T19:36:47.688630+00:00",
+  "scope": "CPU artifacts and independent nearest timestamp/quaternion/relative-pose recomputation; no model/viewer/install",
+  "source_manifest_sha256": "94e01ad9b919c8afcb1a3de10231e496c5b9f0c00cfe8ba129131a174bdfac42",
+  "manifest_files_verified": 273,
+  "selection_sha256": "336c33ce87f300f07b3ac70e3f17f1f1b7fb832fcfd7d958160047a6f5a84ac3",
+  "protocol_sha256": "3c6a51de641bf4fafeb44ecb525d9850274be0df41cd1d6763d0a521ef7e8760",
+  "recorded_freeze_precedes_recorded_execution": true,
+  "reference_rotation_method": "normalized xyzw quaternion via skew matrix; relative solve(Tj,Ti); evaluate_poses.py not executed",
+  "frames": [
+    {
+      "index": 0,
+      "rgb_timestamp": 1305031104.175424,
+      "nearest_rgb_delta_s": 0.0001201629638671875,
+      "nearest_gt_timestamp": 1305031104.1758,
+      "gt_delta_s": 0.00037598609924316406,
+      "conf_shape": [
+        1,
+        392,
+        518
+      ],
+      "display_valid_pixels": 189972,
+      "raw_display_conf_and_valid_geometry_equal": true
+    },
+    {
+      "index": 1,
+      "rgb_timestamp": 1305031104.675525,
+      "nearest_rgb_delta_s": 0.00022101402282714844,
+      "nearest_gt_timestamp": 1305031104.6759,
+      "gt_delta_s": 0.0003750324249267578,
+      "conf_shape": [
+        1,
+        392,
+        518
+      ],
+      "display_valid_pixels": 188734,
+      "raw_display_conf_and_valid_geometry_equal": true
+    },
+    {
+      "index": 2,
+      "rgb_timestamp": 1305031105.175159,
+      "nearest_rgb_delta_s": -0.00014495849609375,
+      "nearest_gt_timestamp": 1305031105.1758,
+      "gt_delta_s": 0.0006411075592041016,
+      "conf_shape": [
+        1,
+        392,
+        518
+      ],
+      "display_valid_pixels": 189453,
+      "raw_display_conf_and_valid_geometry_equal": true
+    },
+    {
+      "index": 3,
+      "rgb_timestamp": 1305031105.675166,
+      "nearest_rgb_delta_s": -0.0001380443572998047,
+      "nearest_gt_timestamp": 1305031105.6759,
+      "gt_delta_s": 0.0007340908050537109,
+      "conf_shape": [
+        1,
+        392,
+        518
+      ],
+      "display_valid_pixels": 190089,
+      "raw_display_conf_and_valid_geometry_equal": true
+    }
+  ],
+  "pairs": [
+    {
+      "pair_id": "0-1",
+      "reference_baseline_m": 0.16502727047370075,
+      "rotation_deg": 1.6657482980132257,
+      "translation_direction_deg": 5.636605736159527,
+      "reason": null
+    },
+    {
+      "pair_id": "0-2",
+      "reference_baseline_m": 0.14071268599525733,
+      "rotation_deg": 3.021898507001012,
+      "translation_direction_deg": 7.408182162989354,
+      "reason": null
+    },
+    {
+      "pair_id": "0-3",
+      "reference_baseline_m": 0.07123503351582013,
+      "rotation_deg": 0.5856048382432243,
+      "translation_direction_deg": 5.493252134339282,
+      "reason": null
+    },
+    {
+      "pair_id": "1-2",
+      "reference_baseline_m": 0.02696405014088217,
+      "rotation_deg": 1.6742602086879737,
+      "translation_direction_deg": null,
+      "reason": "reference-baseline-below-0.05m"
+    },
+    {
+      "pair_id": "1-3",
+      "reference_baseline_m": 0.23521400893654268,
+      "rotation_deg": 1.8039996086436851,
+      "translation_direction_deg": 5.709959501352614,
+      "reason": null
+    },
+    {
+      "pair_id": "2-3",
+      "reference_baseline_m": 0.21152789414164747,
+      "rotation_deg": 2.863154375720281,
+      "translation_direction_deg": 8.43967975265278,
+      "reason": null
+    }
+  ],
+  "rotation_denominator": 6,
+  "translation_denominator": 5,
+  "display_points": 758248,
+  "pose_classification": "not assigned; reference noise not independently bounded",
+  "high_confidence_status": "unavailable-not-calibrated",
+  "research_validated_scenes": 0,
+  "passed": true
+}

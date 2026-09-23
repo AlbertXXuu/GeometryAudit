@@ -1,0 +1,12 @@
+{
+  "nvidia_smi_peak_sampled_whole_gpu_memory_mib": 7848.0,
+  "nvidia_smi_peak_sampled_whole_gpu_power_watts": 48.07,
+  "sample_count": 36,
+  "sampling_period_s": 1,
+  "scope": "Whole GPU including unrelated desktop processes; not model-only allocation or energy",
+  "pip_install_file_timestamp_interval_s": 211.6668213,
+  "pip_install_timing_quality": "Approximate log creation-to-final-write interval; not instrumented wall time",
+  "api_service_cost_cny": 0,
+  "user_active_labor": "not measured",
+  "electricity_cost": "not measured"
+}

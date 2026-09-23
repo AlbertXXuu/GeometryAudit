@@ -1,0 +1,17 @@
+{
+  "run_id": "run-02",
+  "executed_under": {
+    "version": "GEO-P0.1",
+    "sha256": "1978a7d70b828f86393e98d57578d75ec80339895d1dafd2b56f5ed72f8c6f07",
+    "received_before_model_inference": true
+  },
+  "reviewed_against": {
+    "version": "GEO-P0.2",
+    "sha256": "3c6a51de641bf4fafeb44ecb525d9850274be0df41cd1d6763d0a521ef7e8760",
+    "scope": "P0 engineering acceptance compatibility only; research interpretation remains with role 01",
+    "rerun_required_for_this_smoke": false
+  },
+  "research_performance_evaluated_under": null,
+  "research_validation_scenes": 0,
+  "note": "Original execution config is preserved. No retroactive preregistration or research performance claim."
+}

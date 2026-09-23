@@ -1,0 +1,263 @@
+{
+  "version": "geometry-audit-projectization-1",
+  "date": "2026-09-23",
+  "purpose": "Version the previously accepted P0 experiment; no new inference or research claim.",
+  "transformations": {
+    "adapted-script": "Artifact root environment override; explicit new run name; rerun marker. Inference and export logic retained.",
+    "publication-document": "Internal Markdown links relocated or rendered as local/historical artifact references; publication-copy banner added."
+  },
+  "files": {
+    "archive/protocols/PROTOCOL.md": {
+      "source": "operations/incubator/geometry-audit/PROTOCOL.md",
+      "source_sha256": "3c6a51de641bf4fafeb44ecb525d9850274be0df41cd1d6763d0a521ef7e8760",
+      "sha256": "3c6a51de641bf4fafeb44ecb525d9850274be0df41cd1d6763d0a521ef7e8760",
+      "kind": "protocol-snapshot"
+    },
+    "archive/protocols/PROTOCOL_GEO-P0.1.md": {
+      "source": "operations/incubator/geometry-audit/PROTOCOL_GEO-P0.1.md",
+      "source_sha256": "1978a7d70b828f86393e98d57578d75ec80339895d1dafd2b56f5ed72f8c6f07",
+      "sha256": "1978a7d70b828f86393e98d57578d75ec80339895d1dafd2b56f5ed72f8c6f07",
+      "kind": "protocol-snapshot"
+    },
+    "archive/protocols/LANDSCAPE.md": {
+      "source": "operations/incubator/geometry-audit/LANDSCAPE.md",
+      "source_sha256": "d1273f2e1460058c47c9db09d69e069ecba9b2ae1f8052fcdb44a2ad148dbf6d",
+      "sha256": "d1273f2e1460058c47c9db09d69e069ecba9b2ae1f8052fcdb44a2ad148dbf6d",
+      "kind": "protocol-snapshot"
+    },
+    "archive/execution-scripts/round1/export_replay.py": {
+      "source": ".workspace/experiments/geometry-audit/round1/export_replay.py",
+      "source_sha256": "df285d8dff63c6c0927a5deb348eeffd3e5a6967bfff532d7c4ba24ccd700200",
+      "sha256": "df285d8dff63c6c0927a5deb348eeffd3e5a6967bfff532d7c4ba24ccd700200",
+      "kind": "historical-script"
+    },
+    "archive/execution-scripts/round1/run_baseline.py": {
+      "source": ".workspace/experiments/geometry-audit/round1/run_baseline.py",
+      "source_sha256": "da69c3c5dd8dfe5f0f0d0af68e382486295736c46bcbaa7fdaed3fed52205ec0",
+      "sha256": "da69c3c5dd8dfe5f0f0d0af68e382486295736c46bcbaa7fdaed3fed52205ec0",
+      "kind": "historical-script"
+    },
+    "archive/execution-scripts/round1/verify_artifacts.py": {
+      "source": ".workspace/experiments/geometry-audit/round1/verify_artifacts.py",
+      "source_sha256": "65a3cead0299ce2f4b1939b2d731401e769f9c20d00b73c72454d3c65e9ad5c6",
+      "sha256": "65a3cead0299ce2f4b1939b2d731401e769f9c20d00b73c72454d3c65e9ad5c6",
+      "kind": "historical-script"
+    },
+    "archive/execution-scripts/round1/replay.ps1": {
+      "source": ".workspace/experiments/geometry-audit/round1/replay.ps1",
+      "source_sha256": "1fc09f276ae1b31d3a7099b14ddc25ea9dcd81b6d099b2e15365fb7081b173d6",
+      "sha256": "1fc09f276ae1b31d3a7099b14ddc25ea9dcd81b6d099b2e15365fb7081b173d6",
+      "kind": "historical-script"
+    },
+    "archive/execution-scripts/tum-p0/evaluate_poses.py": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/evaluate_poses.py",
+      "source_sha256": "c83a4ef6dab02658df36db96d4b8e89c014a18ef20e8181d30892434bb2e514f",
+      "sha256": "c83a4ef6dab02658df36db96d4b8e89c014a18ef20e8181d30892434bb2e514f",
+      "kind": "historical-script"
+    },
+    "archive/execution-scripts/tum-p0/export_tum.py": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/export_tum.py",
+      "source_sha256": "bba829a8e2f3e6f536d00524387c0d687da9524955893d80aba89953693c761c",
+      "sha256": "bba829a8e2f3e6f536d00524387c0d687da9524955893d80aba89953693c761c",
+      "kind": "historical-script"
+    },
+    "archive/execution-scripts/tum-p0/make_viewer_layout.py": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/make_viewer_layout.py",
+      "source_sha256": "0d63469716fb903384c6136f15d09863b6d06ec8031aaadd017870dcd886e6e6",
+      "sha256": "0d63469716fb903384c6136f15d09863b6d06ec8031aaadd017870dcd886e6e6",
+      "kind": "historical-script"
+    },
+    "archive/execution-scripts/tum-p0/prepare_tum.py": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/prepare_tum.py",
+      "source_sha256": "f1e5e3280af246049c069363e5410bdfec15175916f5cb9a4ce9160d997d6c30",
+      "sha256": "f1e5e3280af246049c069363e5410bdfec15175916f5cb9a4ce9160d997d6c30",
+      "kind": "historical-script"
+    },
+    "archive/execution-scripts/tum-p0/run_tum.py": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/run_tum.py",
+      "source_sha256": "5ed2e8b95a864e53f47d4df7d9abe76159a46a2a953aac16ff8e4a5f91b1ce88",
+      "sha256": "5ed2e8b95a864e53f47d4df7d9abe76159a46a2a953aac16ff8e4a5f91b1ce88",
+      "kind": "historical-script"
+    },
+    "archive/execution-scripts/tum-p0/run_with_budget.py": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/run_with_budget.py",
+      "source_sha256": "86513aa13a80d8dd81fb638ce6327e7d4928ef0353f334a98f513ea3e6325cce",
+      "sha256": "86513aa13a80d8dd81fb638ce6327e7d4928ef0353f334a98f513ea3e6325cce",
+      "kind": "historical-script"
+    },
+    "archive/execution-scripts/tum-p0/verify_tum.py": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/verify_tum.py",
+      "source_sha256": "155b4618a8c3b4874a4e4137df350a597a4566d4e1903106c4de8b870be22896",
+      "sha256": "155b4618a8c3b4874a4e4137df350a597a4566d4e1903106c4de8b870be22896",
+      "kind": "historical-script"
+    },
+    "archive/execution-scripts/tum-p0/replay.ps1": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/replay.ps1",
+      "source_sha256": "c4cc4e244d8160d2117aa4fa5aed6c7829b79383f4f1a4b9e4df826e4c5ccd71",
+      "sha256": "c4cc4e244d8160d2117aa4fa5aed6c7829b79383f4f1a4b9e4df826e4c5ccd71",
+      "kind": "historical-script"
+    },
+    "archive/requirements-gpu-recorded.txt": {
+      "source": ".workspace/experiments/geometry-audit/round1/requirements-replay.txt",
+      "source_sha256": "df1b88a96d4f72597236b70131df7a1211c470cf6fefeccbd00f4917765092db",
+      "sha256": "df1b88a96d4f72597236b70131df7a1211c470cf6fefeccbd00f4917765092db",
+      "kind": "historical-environment"
+    },
+    "records/motorcycle/cost-summary.json": {
+      "source": ".workspace/experiments/geometry-audit/round1/cost-summary.json",
+      "source_sha256": "25e908dc133b982457ddebc214889cccdddb5146042431411dfc216bd667ecb1",
+      "sha256": "25e908dc133b982457ddebc214889cccdddb5146042431411dfc216bd667ecb1",
+      "kind": "record"
+    },
+    "records/motorcycle/inputs-manifest.json": {
+      "source": ".workspace/experiments/geometry-audit/round1/inputs-manifest.json",
+      "source_sha256": "d32ef6ad072428a887268e6ca428b7b48759b87f6435aee0be9dae30aa895a21",
+      "sha256": "d32ef6ad072428a887268e6ca428b7b48759b87f6435aee0be9dae30aa895a21",
+      "kind": "record"
+    },
+    "records/motorcycle/model-metadata.json": {
+      "source": ".workspace/experiments/geometry-audit/round1/model-metadata.json",
+      "source_sha256": "0b727052493d477cb277b31a2b2cb6d90747f05771de7c8a292da09575356751",
+      "sha256": "0b727052493d477cb277b31a2b2cb6d90747f05771de7c8a292da09575356751",
+      "kind": "record"
+    },
+    "records/motorcycle/protocol-alignment.json": {
+      "source": ".workspace/experiments/geometry-audit/round1/protocol-alignment.json",
+      "source_sha256": "8da348114e9f83b6b239bceef42954376d2b92847e909758226b1df0b26bfe92",
+      "sha256": "8da348114e9f83b6b239bceef42954376d2b92847e909758226b1df0b26bfe92",
+      "kind": "record"
+    },
+    "records/motorcycle/result.json": {
+      "source": ".workspace/experiments/geometry-audit/round1/run-02/result.json",
+      "source_sha256": "87fa5541eb651590182e50c29fbcfd8af961f394dd1236e68981ccc019023d31",
+      "sha256": "87fa5541eb651590182e50c29fbcfd8af961f394dd1236e68981ccc019023d31",
+      "kind": "record"
+    },
+    "records/tum/selection.json": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/selection.json",
+      "source_sha256": "336c33ce87f300f07b3ac70e3f17f1f1b7fb832fcfd7d958160047a6f5a84ac3",
+      "sha256": "336c33ce87f300f07b3ac70e3f17f1f1b7fb832fcfd7d958160047a6f5a84ac3",
+      "kind": "record"
+    },
+    "records/tum/selection.sha256": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/selection.sha256",
+      "source_sha256": "2735524c270ee5f19711f89cb438191ef27ed4df200f25a997347ba482b7b624",
+      "sha256": "2735524c270ee5f19711f89cb438191ef27ed4df200f25a997347ba482b7b624",
+      "kind": "record"
+    },
+    "records/tum/pose-comparison.json": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/pose-comparison.json",
+      "source_sha256": "1547856b625b67237df3fcb314055864a1b4dbd0a0e82de89a53d6211dbc4fce",
+      "sha256": "1547856b625b67237df3fcb314055864a1b4dbd0a0e82de89a53d6211dbc4fce",
+      "kind": "record"
+    },
+    "records/tum/pose-comparison.csv": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/pose-comparison.csv",
+      "source_sha256": "8dc5da4f89d5fef2229dde104bf9824681679d9784725e442f72ca755e5d765d",
+      "sha256": "8dc5da4f89d5fef2229dde104bf9824681679d9784725e442f72ca755e5d765d",
+      "kind": "record"
+    },
+    "records/tum/reference-checks.json": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/reference-checks.json",
+      "source_sha256": "032a555e18ae822bd69b655e5a61f6364ee43b7bccebe93721dc3671e2b2f8ee",
+      "sha256": "032a555e18ae822bd69b655e5a61f6364ee43b7bccebe93721dc3671e2b2f8ee",
+      "kind": "record"
+    },
+    "records/tum/resource-summary.json": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/resource-summary.json",
+      "source_sha256": "0dbbd1bb0414bc960d90dd6fedde47a5ebc0e4c9a274a8ee226062bea7d5c7a5",
+      "sha256": "0dbbd1bb0414bc960d90dd6fedde47a5ebc0e4c9a274a8ee226062bea7d5c7a5",
+      "kind": "record"
+    },
+    "records/tum/delivery.json": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/delivery.json",
+      "source_sha256": "bf58ecfc8d1d6c04901472294eb3ecda008312a5159c63e688ed58003f207478",
+      "sha256": "bf58ecfc8d1d6c04901472294eb3ecda008312a5159c63e688ed58003f207478",
+      "kind": "record"
+    },
+    "records/tum/result.json": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/run-518/result.json",
+      "source_sha256": "fbe147c49b62e123d45eb7f5b0685299b9a90607f6d0e4132a489ff53935dea9",
+      "sha256": "fbe147c49b62e123d45eb7f5b0685299b9a90607f6d0e4132a489ff53935dea9",
+      "kind": "record"
+    },
+    "reports/REVIEW_R1.json": {
+      "source": "operations/incubator/geometry-audit/REVIEW_R1.json",
+      "source_sha256": "a96bf3035fcb1b1e85b58825645b52aa441cbe526eb7791ccbbbf8407857f4f8",
+      "sha256": "a96bf3035fcb1b1e85b58825645b52aa441cbe526eb7791ccbbbf8407857f4f8",
+      "kind": "independent-review"
+    },
+    "reports/REVIEW_TUM_P0.json": {
+      "source": "operations/incubator/geometry-audit/REVIEW_TUM_P0.json",
+      "source_sha256": "c1081e8cfb5e62568f4cbef3330cf400a3390e6a582483d10b729b7614dabd8f",
+      "sha256": "c1081e8cfb5e62568f4cbef3330cf400a3390e6a582483d10b729b7614dabd8f",
+      "kind": "independent-review"
+    },
+    "scripts/motorcycle/run_baseline.py": {
+      "source": ".workspace/experiments/geometry-audit/round1/run_baseline.py",
+      "source_sha256": "da69c3c5dd8dfe5f0f0d0af68e382486295736c46bcbaa7fdaed3fed52205ec0",
+      "sha256": "6a34ecce982b2c525439fd252867816680f7cbc22b9f095737f7a464a7e93f36",
+      "kind": "adapted-script"
+    },
+    "scripts/motorcycle/export_replay.py": {
+      "source": ".workspace/experiments/geometry-audit/round1/export_replay.py",
+      "source_sha256": "df285d8dff63c6c0927a5deb348eeffd3e5a6967bfff532d7c4ba24ccd700200",
+      "sha256": "2f390ef10527ebc6d39c45917f47d0d14e9e116bed4c25b38e1e9ed9cac5d6d4",
+      "kind": "adapted-script"
+    },
+    "scripts/motorcycle/verify_artifacts.py": {
+      "source": ".workspace/experiments/geometry-audit/round1/verify_artifacts.py",
+      "source_sha256": "65a3cead0299ce2f4b1939b2d731401e769f9c20d00b73c72454d3c65e9ad5c6",
+      "sha256": "b898dee7e6dcf256b7c1dbc248de7565282abfc2db78aef21b7c0b59c02025d9",
+      "kind": "adapted-script"
+    },
+    "scripts/tum/run_tum.py": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/run_tum.py",
+      "source_sha256": "5ed2e8b95a864e53f47d4df7d9abe76159a46a2a953aac16ff8e4a5f91b1ce88",
+      "sha256": "657b531540cc1070686ba34b83c22a2b82ba082d7d5ca5ec15913ed18e4b21bc",
+      "kind": "adapted-script"
+    },
+    "scripts/tum/export_tum.py": {
+      "source": ".workspace/experiments/geometry-audit/tum-p0/export_tum.py",
+      "source_sha256": "bba829a8e2f3e6f536d00524387c0d687da9524955893d80aba89953693c761c",
+      "sha256": "9403286bc65840f85c04ac1ab28375c35974b406d0e896346d7f527767c56671",
+      "kind": "adapted-script"
+    },
+    "docs/PROTOCOL.md": {
+      "source": "operations/incubator/geometry-audit/PROTOCOL.md",
+      "source_sha256": "3c6a51de641bf4fafeb44ecb525d9850274be0df41cd1d6763d0a521ef7e8760",
+      "sha256": "0397196d9e1797f1c10e8b6d766b80c148597cc38b0c68ca6266f31405a21616",
+      "kind": "publication-document"
+    },
+    "docs/PROTOCOL_GEO-P0.1.md": {
+      "source": "operations/incubator/geometry-audit/PROTOCOL_GEO-P0.1.md",
+      "source_sha256": "1978a7d70b828f86393e98d57578d75ec80339895d1dafd2b56f5ed72f8c6f07",
+      "sha256": "f75868881ec0394d2102b56a12508f5a39c8b10d13c77ce26f12961144fe249d",
+      "kind": "publication-document"
+    },
+    "docs/LANDSCAPE.md": {
+      "source": "operations/incubator/geometry-audit/LANDSCAPE.md",
+      "source_sha256": "d1273f2e1460058c47c9db09d69e069ecba9b2ae1f8052fcdb44a2ad148dbf6d",
+      "sha256": "d348675983a270541f2c6987fbcf2cd48544f9daed9145cd3b137bf24f68c1db",
+      "kind": "publication-document"
+    },
+    "reports/REPORT.md": {
+      "source": "operations/incubator/geometry-audit/REPORT.md",
+      "source_sha256": "458024a4fec1bf3e58209911410918561f621842cdf010c9106d50a9364271b9",
+      "sha256": "afe0b12434522b26445752794ede997e136b51cc480d50a9c39a25f95d19978d",
+      "kind": "publication-document"
+    },
+    "reports/REPORT_TUM_P0.md": {
+      "source": "operations/incubator/geometry-audit/REPORT_TUM_P0.md",
+      "source_sha256": "dfc7d39d1b5c5a5454a52a18bf766963c3203b77b968890bd3217937f834bd23",
+      "sha256": "bbe46406ee78df29dbe067e9501116fed6af9c10ebd694256987d2569aff238a",
+      "kind": "publication-document"
+    },
+    "LICENSE": {
+      "source": "projects/ReproLock/LICENSE",
+      "source_sha256": "43d888062f56712f558697a3ae75c0b371930e27b4f1187ff1b72fd1055bb9f5",
+      "sha256": "43d888062f56712f558697a3ae75c0b371930e27b4f1187ff1b72fd1055bb9f5",
+      "kind": "license-text"
+    }
+  }
+}

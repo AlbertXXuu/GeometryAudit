@@ -1,0 +1,193 @@
+{
+  "status": "success",
+  "accuracy_evaluation": "not performed",
+  "model_load_s": 14.087377100004232,
+  "preprocessed_shapes": [
+    [
+      1,
+      3,
+      336,
+      518
+    ],
+    [
+      1,
+      3,
+      336,
+      518
+    ]
+  ],
+  "inference_s": 11.049896999989869,
+  "torch_peak_allocated_bytes": 7718301696,
+  "torch_peak_reserved_bytes": 8266973184,
+  "views": [
+    {
+      "shape": [
+        1,
+        336,
+        518
+      ],
+      "pixel_count": 174048,
+      "valid_pixels": 148914,
+      "confidence_finite_fraction": 1.0,
+      "confidence_quantiles": [
+        1.0,
+        1.0007478833198546,
+        1.691373348236084,
+        4.961690521240234,
+        9.552864074707031
+      ],
+      "depth_finite_fraction": 1.0,
+      "camera_pose": [
+        [
+          [
+            0.9999998807907104,
+            7.127140270313248e-05,
+            0.00046073985868133605,
+            -0.0022438063751906157
+          ],
+          [
+            -7.133896724553779e-05,
+            1.0,
+            0.00014663867477793247,
+            -2.6373458240414038e-05
+          ],
+          [
+            -0.0004607293813023716,
+            -0.00014667153300251812,
+            0.9999998807907104,
+            3.052723332075402e-05
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      ],
+      "intrinsics": [
+        [
+          [
+            368.4022521972656,
+            0.0,
+            258.8706359863281
+          ],
+          [
+            0.0,
+            367.3737487792969,
+            166.96620178222656
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      ],
+      "saved_keys": [
+        "cam_quats",
+        "cam_trans",
+        "camera_poses",
+        "conf",
+        "depth_along_ray",
+        "depth_z",
+        "img_no_norm",
+        "intrinsics",
+        "mask",
+        "metric_scaling_factor",
+        "non_ambiguous_mask",
+        "non_ambiguous_mask_logits",
+        "pts3d",
+        "pts3d_cam",
+        "ray_directions"
+      ]
+    },
+    {
+      "shape": [
+        1,
+        336,
+        518
+      ],
+      "pixel_count": 174048,
+      "valid_pixels": 148936,
+      "confidence_finite_fraction": 1.0,
+      "confidence_quantiles": [
+        1.0,
+        1.0008191823959351,
+        1.7248080372810364,
+        4.819687271118164,
+        8.399890899658203
+      ],
+      "depth_finite_fraction": 1.0,
+      "camera_pose": [
+        [
+          [
+            0.9999259114265442,
+            -0.0006387766334228218,
+            -0.012157202698290348,
+            0.3583937883377075
+          ],
+          [
+            0.0006231864099390805,
+            0.9999989867210388,
+            -0.001286134123802185,
+            -0.0006221668445505202
+          ],
+          [
+            0.012158011086285114,
+            0.0012784625869244337,
+            0.9999252557754517,
+            0.006916652899235487
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      ],
+      "intrinsics": [
+        [
+          [
+            365.3470458984375,
+            0.0,
+            258.469482421875
+          ],
+          [
+            0.0,
+            364.2081604003906,
+            166.86572265625
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      ],
+      "saved_keys": [
+        "cam_quats",
+        "cam_trans",
+        "camera_poses",
+        "conf",
+        "depth_along_ray",
+        "depth_z",
+        "img_no_norm",
+        "intrinsics",
+        "mask",
+        "metric_scaling_factor",
+        "non_ambiguous_mask",
+        "non_ambiguous_mask_logits",
+        "pts3d",
+        "pts3d_cam",
+        "ray_directions"
+      ]
+    }
+  ],
+  "export_s": 13.650759500000277,
+  "total_s": 39.428531500001554,
+  "peak_sampled_process_rss_bytes": 9298391040,
+  "resource_sample_period_s": 1,
+  "gpu_memory_scope": "nvidia-smi includes other desktop processes; torch peaks are allocator counters for this process"
+}

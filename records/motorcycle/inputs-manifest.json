@@ -1,0 +1,29 @@
+{
+  "scene": "Middlebury 2014 Motorcycle via scikit-image",
+  "repository_commit": "e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae",
+  "files": [
+    {
+      "file": "motorcycle_left.png",
+      "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/motorcycle_left.png",
+      "sha256": "db18e9c4157617403c3537a6ba355dfeafe9a7eabb6b9b94cb33f6525dd49179",
+      "bytes": 644701,
+      "size": [
+        741,
+        500
+      ],
+      "download_s": 2.064471499994397
+    },
+    {
+      "file": "motorcycle_right.png",
+      "url": "https://raw.githubusercontent.com/scikit-image/scikit-image/e8a42ba85aaf5fd9322ef9ca51bc21063b22fcae/skimage/data/motorcycle_right.png",
+      "sha256": "5fc913ae870e42a4b662314bc904d1786bcad8e2f0b9b67dba5a229406357797",
+      "bytes": 640373,
+      "size": [
+        741,
+        500
+      ],
+      "download_s": 1.8267620999977225
+    }
+  ],
+  "scope": "ordinary engineering smoke; no geometric ground truth supplied to model; original image redistribution terms not independently confirmed, local research and review only"
+}

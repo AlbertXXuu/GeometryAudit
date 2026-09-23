@@ -1,0 +1,180 @@
+{
+  "review_version": "GEO-REVIEW-R1",
+  "reviewed_utc": "2026-09-21T19:06:58.119244+00:00",
+  "scope": "CPU artifact and interpretation review; no model rerun; not geometric accuracy evaluation",
+  "source_manifest_sha256": "e47d765fdeaa041bbe3f45f2dd767b25d3f721cc61d510179bc0f74b4d8f0613",
+  "checked_file_count": 25,
+  "checked_files": {
+    "cost-summary.json": {
+      "sha256": "25e908dc133b982457ddebc214889cccdddb5146042431411dfc216bd667ecb1",
+      "matches_manifest": true
+    },
+    "export_replay.py": {
+      "sha256": "df285d8dff63c6c0927a5deb348eeffd3e5a6967bfff532d7c4ba24ccd700200",
+      "matches_manifest": true
+    },
+    "inputs/motorcycle_left.png": {
+      "sha256": "db18e9c4157617403c3537a6ba355dfeafe9a7eabb6b9b94cb33f6525dd49179",
+      "matches_manifest": true
+    },
+    "inputs/motorcycle_right.png": {
+      "sha256": "5fc913ae870e42a4b662314bc904d1786bcad8e2f0b9b67dba5a229406357797",
+      "matches_manifest": true
+    },
+    "inputs-manifest.json": {
+      "sha256": "d32ef6ad072428a887268e6ca428b7b48759b87f6435aee0be9dae30aa895a21",
+      "matches_manifest": true
+    },
+    "logs/rrd-verify.txt": {
+      "sha256": "895416478debf52e200fff478ea9a069a60ba7da94e735efc01f0a8d3f7d12d2",
+      "matches_manifest": true
+    },
+    "logs/run-01.log": {
+      "sha256": "b1e4c0364e12b7df8fb8a1fe73955e7135d3a6840640b3fa3cfeb0ce9d4bab9e",
+      "matches_manifest": true
+    },
+    "logs/run-02.log": {
+      "sha256": "bb8fdc5f08aac4a389ebad9c21cf278bce0eaa7ce6cb7890feb5ecd9ade2013a",
+      "matches_manifest": true
+    },
+    "protocol-alignment.json": {
+      "sha256": "8da348114e9f83b6b239bceef42954376d2b92847e909758226b1df0b26bfe92",
+      "matches_manifest": true
+    },
+    "provenance/PROTOCOL-GEO-P0.1.md": {
+      "sha256": "1978a7d70b828f86393e98d57578d75ec80339895d1dafd2b56f5ed72f8c6f07",
+      "matches_manifest": true
+    },
+    "provenance/PROTOCOL-GEO-P0.2.md": {
+      "sha256": "3c6a51de641bf4fafeb44ecb525d9850274be0df41cd1d6763d0a521ef7e8760",
+      "matches_manifest": true
+    },
+    "run-02/config.json": {
+      "sha256": "862bc10cf097b4fe044ffab7b3b09f9094e9f4d2b5f603e2dc9fc2277f807087",
+      "matches_manifest": true
+    },
+    "run-02/diagnostics.png": {
+      "sha256": "02612186031b83d4d4bc611a74bcd5bd606fd7f44c017713e1d4c4eed5a9203d",
+      "matches_manifest": true
+    },
+    "run-02/environment.json": {
+      "sha256": "59d7a6eb0a015cadb72fc9280f80122446f9d608bde3927a28e9c05e906f9432",
+      "matches_manifest": true
+    },
+    "run-02/raw-view-00.npz": {
+      "sha256": "12015e9bf50c57bdf81b022fdf0a6bb320abecaa205fa5ce92fc2e9dce041956",
+      "matches_manifest": true
+    },
+    "run-02/raw-view-01.npz": {
+      "sha256": "18a8d3cd18e8d6cbf6b9e6b833a4ed7668cb15baece0e8f663e4210e6d436206",
+      "matches_manifest": true
+    },
+    "run-02/resources.json": {
+      "sha256": "47bd4fdc15e974b3e996f703813cd375bc98a239b118a2304dd97bc8f2387b9c",
+      "matches_manifest": true
+    },
+    "run-02/result.json": {
+      "sha256": "87fa5541eb651590182e50c29fbcfd8af961f394dd1236e68981ccc019023d31",
+      "matches_manifest": true
+    },
+    "run-02/scene.glb": {
+      "sha256": "adad9757fd4bc308fd3838a4f2cdbef890106322eb392aa4aff9c6ec6892dd71",
+      "matches_manifest": true
+    },
+    "run-02/scene.rrd": {
+      "sha256": "e732d369938418b90ba0b25a9283596ef0b47ce577879851449cef0cb2fbdca7",
+      "matches_manifest": true
+    },
+    "run-02/view-00.npz": {
+      "sha256": "8305679751167d5ef0154a27e2759a4ebe50ddecc87d7f2a899d223a634bbf19",
+      "matches_manifest": true
+    },
+    "run-02/view-01.npz": {
+      "sha256": "8c8bde12d18bf019e9731e4da98ee175604368d5923d857b5ffdcd43a1bfbcef",
+      "matches_manifest": true
+    },
+    "run-02/viewer-native-failed.png": {
+      "sha256": "95675ab920bf0bbd1b57db535a8793ce6e29557869d072f29d6beb431537ca5d",
+      "matches_manifest": true
+    },
+    "run-02/viewer-web.png": {
+      "sha256": "07b3b51529a334c6f7d064c7112d1d117953751457844de7363a7f79db1ae735",
+      "matches_manifest": true
+    },
+    "run_baseline.py": {
+      "sha256": "da69c3c5dd8dfe5f0f0d0af68e382486295736c46bcbaa7fdaed3fed52205ec0",
+      "matches_manifest": true
+    }
+  },
+  "views": [
+    {
+      "view": 0,
+      "conf_shape": [
+        1,
+        336,
+        518
+      ],
+      "raw_finite": {
+        "camera_poses": true,
+        "intrinsics": true,
+        "conf": true,
+        "depth_z": true,
+        "pts3d": true,
+        "pts3d_cam": true
+      },
+      "conf_raw_equals_display": true,
+      "valid_depth_raw_equals_display": true,
+      "valid_points_raw_equals_display": true,
+      "display_valid_pixels": 148914,
+      "raw_pixels": 174048,
+      "raw_depth_positive_count": 174048,
+      "display_zero_depth_count": 25134,
+      "raw_conf_range": [
+        1.0,
+        9.552864074707031
+      ],
+      "rotation_determinant": 1.0,
+      "rotation_orthogonality_max_abs": 2.5819391763493016e-11
+    },
+    {
+      "view": 1,
+      "conf_shape": [
+        1,
+        336,
+        518
+      ],
+      "raw_finite": {
+        "camera_poses": true,
+        "intrinsics": true,
+        "conf": true,
+        "depth_z": true,
+        "pts3d": true,
+        "pts3d_cam": true
+      },
+      "conf_raw_equals_display": true,
+      "valid_depth_raw_equals_display": true,
+      "valid_points_raw_equals_display": true,
+      "display_valid_pixels": 148936,
+      "raw_pixels": 174048,
+      "raw_depth_positive_count": 174048,
+      "display_zero_depth_count": 25112,
+      "raw_conf_range": [
+        1.0,
+        8.399890899658203
+      ],
+      "rotation_determinant": 1.0,
+      "rotation_orthogonality_max_abs": 5.960464477539063e-08
+    }
+  ],
+  "glb_points": 297850,
+  "gpu_samples": 38,
+  "gpu_sampled_peak_mib": 7780.0,
+  "torch_peak_allocated_gib": 7.188228607177734,
+  "torch_peak_reserved_gib": 7.69921875,
+  "rss_peak_gib": 8.659801483154297,
+  "inference_s": 11.049896999989869,
+  "total_s": 39.428531500001554,
+  "display_retention": 0.8556547619047619,
+  "protocol_snapshots_match": true,
+  "passed": true
+}
