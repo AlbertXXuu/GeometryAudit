@@ -8,7 +8,7 @@
 
 Reproducible experiments for auditing foundation-model multiview geometry. This repository contains the recorded MapAnything Apache P0 runs, their protocols, and an independently checkable relative-pose calculation.
 
-Status: **experimental research**. Two engineering cases are recorded: Motorcycle stereo and one four-frame TUM `freiburg1_xyz` window. Research validation of ambiguity diagnosis, confidence complementarity and repair remains pending.
+Status: **recorded experiments and reproducibility evidence**. Two engineering cases are recorded: Motorcycle stereo and one four-frame TUM `freiburg1_xyz` window. On **2026-09-26**, the current reliability-adapter research candidate (`CAND-GEO-01`) was retired following a prior-art review of GeoCond. See the [decision and its limits](docs/PRIOR-ART-DECISION-2026-09-26.md). The recorded experiments remain available; they do not establish ambiguity diagnosis, confidence complementarity or repair gains.
 
 ## Recorded results
 
@@ -49,6 +49,18 @@ python scripts/tum/run_tum.py --help
 Model weights, input photographs and raw NPZ/GLB/RRD files are external artifacts. The maintained runners accept their common location through `GEOMETRY_AUDIT_ARTIFACTS`, defaulting to this repository's ignored `.local/` directory. Fresh inference always needs a new output directory. Packaging validation did not rerun the GPU model or perform a fresh GPU environment installation.
 
 ## Evidence and provenance
+
+Research preparation was closed **2026-09-26** after the prior-art decision. The unexecuted
+[relative-pose audit draft](docs/PROTOCOL-NEXT.md) and [candidate register](docs/SCENE-CANDIDATES.md)
+are retained as historical preparation. They are not an active experiment queue. None of the
+eight source entries was admitted as a new independently referenced physical scene.
+
+The recorded pose recalculation, eight CPU tests and 42 imported-file hashes passed again.
+Local preflight found the retained model checkpoint intact and CUDA available, but the former
+temporary model environment is absent and required inference packages are missing. No new
+model inference or scene admission was completed. The proposed new experiment is now stopped;
+a future research effort needs a separately justified question and decision. The original
+protocols, archived scripts and imported results remain unchanged.
 
 - [Protocol GEO-P0.2](docs/PROTOCOL.md), [historical P0.1](docs/PROTOCOL_GEO-P0.1.md), [method landscape](docs/LANDSCAPE.md).
 - [Motorcycle review](reports/REPORT.md), [TUM review](reports/REPORT_TUM_P0.md).
