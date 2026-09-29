@@ -35,7 +35,7 @@ python -m venv .venv
 
 On Linux/macOS use `.venv/bin/python` instead. `review_recorded.py` rebuilds reference rotations from the recorded xyzw quaternions, computes `solve(T_j, T_i)` from recorded model cameras, and compares all six pairs with the accepted report. It leaves committed records unchanged. `--output <new-file.json>` optionally saves a separate recalculation.
 
-This checks the published numeric record. The earlier independent review also checked the original NPZ arrays and complete frozen selection metadata; see [TUM review](reports/REPORT_TUM_P0.md).
+This checks the published numeric record. The earlier independent review also checked the original NPZ arrays and complete frozen selection metadata; see the TUM review in [English](reports/REPORT_TUM_P0.en.md) or [简体中文](reports/REPORT_TUM_P0.md).
 
 ## Run the model or replay local artifacts
 
@@ -63,9 +63,12 @@ a future research effort needs a separately justified question and decision. The
 protocols, archived scripts and imported results remain unchanged.
 
 - [Protocol GEO-P0.2](docs/PROTOCOL.md), [historical P0.1](docs/PROTOCOL_GEO-P0.1.md), [method landscape](docs/LANDSCAPE.md).
-- [Motorcycle review](reports/REPORT.md), [TUM review](reports/REPORT_TUM_P0.md).
+- Motorcycle review: [English](reports/REPORT.en.md) · [简体中文](reports/REPORT.md).
+- TUM review: [English](reports/REPORT_TUM_P0.en.md) · [简体中文](reports/REPORT_TUM_P0.md).
 - [Motorcycle records](records/motorcycle/), [TUM records](records/tum/), [original-to-repository provenance](provenance.json).
 - `archive/` preserves the exact original execution scripts, including historical one-run budgets. They document the original run; the current entry points are under `scripts/`.
 - [Data/model attribution](THIRD_PARTY_NOTICES.md). No input photograph or third-party model/source distribution is bundled.
 
 The website is the presentation layer: [AlvenX research note](https://alvenx.com/notes/2026-09-22-multiview-geometry). This repository carries the experiment code and evidence, including the subsequently reviewed TUM result.
+
+The English reports are complete translations of the dated Chinese originals. The originals and their recorded evidence remain unchanged; each translation links back to its source and this bilingual index.
